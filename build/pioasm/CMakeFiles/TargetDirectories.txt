@@ -1,0 +1,3 @@
+C:/Users/danie/OneDrive/Dokument/pico/turntable/build/pioasm/CMakeFiles/pioasm.dir
+C:/Users/danie/OneDrive/Dokument/pico/turntable/build/pioasm/CMakeFiles/edit_cache.dir
+C:/Users/danie/OneDrive/Dokument/pico/turntable/build/pioasm/CMakeFiles/rebuild_cache.dir
