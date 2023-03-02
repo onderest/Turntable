@@ -53,3 +53,8 @@ the bearing i made out of  bearing bronze 50mm roundbar i had at home and a hard
 ![alt text](https://github.com/onderest/turntable/blob/main/FigBearing1.png?raw=true)
 
 Fig.4-5 - Bearing
+
+
+![alt text](https://github.com/onderest/turntable/blob/main/Testfit.png?raw=true)
+
+Fig.6 - Testfit
