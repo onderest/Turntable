@@ -35,17 +35,21 @@ Fig.1 - Testbench
 
 The design i first wanted was a two level turntable, much like the Kronos Discovery turntable. but i still like the look of a big beefy platter, so after a few designs on paper i decided on a look i really liked.
 
+
 ![alt text](?raw=true)
 
-Fig.2 - design
+Fig.3 - design
 
+![alt text](https://github.com/onderest/turntable/blob/main/FigAluparts.png?raw=true)
+
+Fig.3 - alu parts
 
 # Bearing
 
 the bearing i made out of  bearing bronze 50mm roundbar i had at home and a hardent rod.
 
 
-![alt text](https://github.com/onderest/turntable/blob/main/Fig3.png?raw=true)
-![alt text](https://github.com/onderest/turntable/blob/main/Fig2.png?raw=true)
+![alt text](https://github.com/onderest/turntable/blob/main/FigBearging2.png?raw=true)
+![alt text](https://github.com/onderest/turntable/blob/main/FigBearing1.png?raw=true)
 
-Fig.3 - Bearing
+Fig.4-5 - Bearing
