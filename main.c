@@ -1,4 +1,5 @@
 #include "header.h"
+// in build directory to build
 // cmake -G "MinGW Makefiles" ..
 // make
 // gpiopinout
