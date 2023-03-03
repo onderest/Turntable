@@ -25,6 +25,7 @@ Functions for the program will be:<br>
 1 Timer to compare motor speed with encoder speed.                                          DONE<br>
 1 counter to count encoder pulses.<br>
 3 buttons, one for flashing the card and two to speed up or speed down the platter.<br>
+<br>
 more functions might come, like 1 button to save values to eeprom.
 
 ![alt text](https://github.com/onderest/turntable/blob/main/Fig1.png?raw=true)
