@@ -1,6 +1,6 @@
 # Introduction
 
-This is my journey of building a turntable. My old one has a few flaws that i want to solve, it doesn't keep constant speed, and its bearing is pretty bad, and my wife doesn't think it fits the theme of our living room. 
+This is my project of building a turntable. My old one has a few flaws that i want to solve, it doesn't keep constant speed, and its bearing is pretty bad, and my wife doesn't think it fits the theme of our living room. 
 So, a new and improved one will be my next project.
 
 problems to solve:
