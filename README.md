@@ -53,4 +53,4 @@ Fig.4-5 - Bearing
 
 
 ![alt text](https://github.com/onderest/turntable/blob/main/Testfit.png?raw=true)<br>
-Fig.6 - Testfit
+Fig.6 - prototype with 3D printed parts
