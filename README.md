@@ -20,11 +20,11 @@ color scheme will be Turquoise and dark grey,
 
 As the project started during my programming courses in school, that is where i started, i built a testbench for the motor and encoder to try my code live. As i never used the RP2040 processor from raspberry this was necessery to test each step.
 
-Functions for the program will be:
-1 PWM function to control Motor speed.                                                      DONE
-1 Timer to compare motor speed with encoder speed.                                          DONE
-1 counter to count encoder pulses.
-3 buttons, one for flashing the card and two to speed up or speed down the platter.
+Functions for the program will be:<br>
+1 PWM function to control Motor speed.                                                      DONE<br>
+1 Timer to compare motor speed with encoder speed.                                          DONE<br>
+1 counter to count encoder pulses.<br>
+3 buttons, one for flashing the card and two to speed up or speed down the platter.<br>
 more functions might come, like 1 button to save values to eeprom.
 
 ![alt text](https://github.com/onderest/turntable/blob/main/Fig1.png?raw=true)
