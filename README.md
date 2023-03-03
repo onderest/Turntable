@@ -8,7 +8,7 @@ problems to solve:
 * Good bearing.
 * Fit living room.
 
-The motor will be a 12V dc motor that will adjust speed by comparing its speed with a digital encoder: wdg 40s-1024-ab-h24-l2-100
+The motor will be a 12V dc motor that will adjust speed by comparing its speed with a digital encoder: wdg 40s-1024-ab-h24-l2-100<br>
 https://www.hemomatik.se/PDF/Encoder-WDG-40A-1_h.pdf
 
 the bearing will be magnetic for vertical forces, and housing will be made of bearing bronze turned on my lathe, and a 20mm hardened rod.
@@ -28,8 +28,7 @@ Functions for the program will be:<br>
 <br>
 more functions might come, like 1 button to save values to eeprom.
 
-![alt text](https://github.com/onderest/turntable/blob/main/Fig1.png?raw=true)
-
+![alt text](https://github.com/onderest/turntable/blob/main/Fig1.png?raw=true)<br>
 Fig.1 - Testbench
 
 # Turntable base
@@ -37,12 +36,10 @@ Fig.1 - Testbench
 The design i first wanted was a two level turntable, much like the Kronos Discovery turntable. but i still like the look of a big beefy platter, so after a few designs on paper i decided on a look i really liked.
 
 
-![alt text](?raw=true)
-
+![alt text](?raw=true)<br>
 Fig.3 - design
 
-![alt text](https://github.com/onderest/turntable/blob/main/FigAluparts.png?raw=true)
-
+![alt text](https://github.com/onderest/turntable/blob/main/FigAluparts.png?raw=true)<br>
 Fig.3 - alu parts
 
 # Bearing
@@ -51,11 +48,9 @@ the bearing i made out of  bearing bronze 50mm roundbar i had at home and a 20mm
 
 
 ![alt text](https://github.com/onderest/turntable/blob/main/FigBearging2.png?raw=true)
-![alt text](https://github.com/onderest/turntable/blob/main/FigBearing1.png?raw=true)
-
+![alt text](https://github.com/onderest/turntable/blob/main/FigBearing1.png?raw=true)<br>
 Fig.4-5 - Bearing
 
 
-![alt text](https://github.com/onderest/turntable/blob/main/Testfit.png?raw=true)
-
+![alt text](https://github.com/onderest/turntable/blob/main/Testfit.png?raw=true)<br>
 Fig.6 - Testfit
