@@ -115,6 +115,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/common/pico_usb_reset_interface/include"
+  "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pwm/include"
   )
 
@@ -152,6 +153,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" "gcc" "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" "gcc" "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c" "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" "gcc" "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d"
+  "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c" "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" "gcc" "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c" "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" "gcc" "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c" "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" "gcc" "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c" "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" "gcc" "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d"

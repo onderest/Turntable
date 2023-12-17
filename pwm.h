@@ -11,8 +11,7 @@ typedef struct PWM
 
 } PWM;
 
-PWM new_PWM(const uint8_t GPIO, 
-uint16_t wrap, uint8_t divider);
+PWM new_PWM(const uint8_t GPIO, uint16_t wrap, uint8_t divider);
 void set_pwm(PWM *self );
 
 #endif

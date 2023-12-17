@@ -1051,6 +1051,20 @@ CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flas
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_flash\flash.c -o CMakeFiles\turntable.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.s
 
+CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/turntable.dir/flags.make
+CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
+CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/turntable.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\danie\OneDrive\Dokument\pico\turntable\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles\turntable.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj.d -o CMakeFiles\turntable.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c
+
+CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c > CMakeFiles\turntable.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.i
+
+CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c -o CMakeFiles\turntable.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.s
+
 # Object files for target turntable
 turntable_OBJECTS = \
 "CMakeFiles/turntable.dir/main.c.obj" \
@@ -1123,7 +1137,8 @@ turntable_OBJECTS = \
 "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
 "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
 "CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
-"CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+"CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
+"CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 
 # External object files for target turntable
 turntable_EXTERNAL_OBJECTS =
@@ -1199,11 +1214,12 @@ turntable.elf: CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/s
 turntable.elf: CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 turntable.elf: CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 turntable.elf: CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+turntable.elf: CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 turntable.elf: CMakeFiles/turntable.dir/build.make
 turntable.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 turntable.elf: CMakeFiles/turntable.dir/objects1.rsp
 turntable.elf: CMakeFiles/turntable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\danie\OneDrive\Dokument\pico\turntable\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Linking CXX executable turntable.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\danie\OneDrive\Dokument\pico\turntable\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking CXX executable turntable.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\turntable.dir\link.txt --verbose=$(VERBOSE)
 	"C:\VSARM\armcc\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Oihex C:/Users/danie/OneDrive/Dokument/pico/turntable/turntable.elf turntable.hex
 	"C:\VSARM\armcc\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Obinary C:/Users/danie/OneDrive/Dokument/pico/turntable/turntable.elf turntable.bin

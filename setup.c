@@ -8,9 +8,21 @@ void setup()
     gpio_init(LED_TEST);
     gpio_set_dir(LED_TEST, GPIO_OUT);
     
-    gpio_init(ENCODER);
-    gpio_set_dir(ENCODER, GPIO_IN);
+    gpio_init(ENC_SW);					//Initialise a GPIO for (enabled I/O and set func to GPIO_FUNC_SIO)
+    gpio_set_dir(ENC_SW,GPIO_IN);
+	gpio_disable_pulls(ENC_SW);
 
+    gpio_init(encoder_a_pin);
+    gpio_set_dir(encoder_a_pin, GPIO_IN);
+    gpio_disable_pulls(encoder_a_pin);
+
+    gpio_init(encoder_b_pin);
+    gpio_set_dir(encoder_b_pin, GPIO_IN);
+    gpio_disable_pulls(encoder_b_pin);
+
+    gpio_set_irq_enabled_with_callback(ENC_SW, GPIO_IRQ_EDGE_FALL, true, &encoder_callback);
+    gpio_set_irq_enabled(encoder_a_pin, GPIO_IRQ_EDGE_FALL, true);
+	gpio_set_irq_enabled(encoder_b_pin, GPIO_IRQ_EDGE_FALL, true);
     pwm_motor = new_PWM(motor_pin, pwm_period, clkdiv); //PIN, wrap, divider
     
     stdio_init_all();

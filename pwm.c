@@ -21,8 +21,14 @@ PWM new_PWM(const uint8_t GPIO, uint16_t wrap, uint8_t divider)
     return self;
 }
 
-
-
+//set pwm to a value from 0-65000
+void set_pwm(PWM *self)
+{
+    static int pwm = 1000;
+    
+    pwm_set_chan_level(self->slice, self->channel, pwm);
+}
+/*
 void set_pwm(PWM *self)
 {
     static int fade = 0;
@@ -45,6 +51,6 @@ void set_pwm(PWM *self)
     sleep_ms(5);
     pwm_set_chan_level(self->slice, self->channel, fade * fade);
 }
-
+*/
 
 

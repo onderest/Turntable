@@ -1003,6 +1003,30 @@ C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\turntable.dir\build.make CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj: C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj
+
+# target to build an object file
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\turntable.dir\build.make CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
+
+# target to preprocess a source file
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\turntable.dir\build.make CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s
+
+# target to generate assembly for a file
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\turntable.dir\build.make CMakeFiles/turntable.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+
 C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 
@@ -1861,6 +1885,9 @@ help:
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
+	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj
+	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
+	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s
