@@ -13,20 +13,20 @@
         "EDGE_RISE"   // 0x8
 */
 
+//void encoder_callback(uint gpio, uint32_t event_mask) 
 void encoder_callback(uint gpio, uint32_t events) 
 {
-	
-	uint32_t gpio_state = 0;
+	uint32_t gpio_get = 0;
 
 	//gpio_state = (gpio_get_all() >> 10) & 0b0111;  	// get all GPIO them mask out all but bits 10, 11, 12
 													// This will need to change to match which GPIO pins are being used.
-    gpio_state = (gpio_get_all() & (1<<18 | 1<<19 | 1<<15)) >> 18;
+    gpio_get = (gpio_get_all() & (1<<4 | 1<<5 | 1<<15)) >> 4;
 	
 	static bool ccw_fall = 0;  //bool used when falling edge is triggered
 	static bool cw_fall = 0;
 	
 	uint8_t enc_value = 0;
-	enc_value = (gpio_state & 0x03);
+	enc_value = (gpio_get & 0x03);
 
 	
 	if (gpio == encoder_a_pin) 

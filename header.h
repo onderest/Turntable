@@ -3,9 +3,9 @@
 #include "definitions.h"
 #include "pwm.h"
 
-#define motor_pin 25
-#define encoder_a_pin 18
-#define encoder_b_pin 19
+#define motor_pin 0
+#define encoder_a_pin 5
+#define encoder_b_pin 6
 #define ENC_SW 15
 
 #define pwm_period 10000
@@ -18,7 +18,7 @@
 
 //#define encoder_pin 17
 
-#define LED_TEST 4
+#define LED_TEST 25
 
 
 
@@ -30,5 +30,5 @@ void test_blink(void);
 void on_pwm_wrap();
 int64_t alarm_callback(alarm_id_t id, void *user_data);
 bool repeating_timer_callback(struct repeating_timer *t); 
-void encoder_callback(uint gpio, uint32_t events);
+void encoder_callback(uint gpio, uint32_t event_mask);
 #endif

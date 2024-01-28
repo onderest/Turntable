@@ -2,9 +2,10 @@
 PWM pwm_motor; 
 volatile bool timer_fired = false;
 struct repeating_timer timer;
-uint32_t executed_interrupts;
+uint16_t executed_interrupts;
 void setup()
 {
+    stdio_init_all();
     gpio_init(LED_TEST);
     gpio_set_dir(LED_TEST, GPIO_OUT);
     
@@ -25,9 +26,9 @@ void setup()
 	gpio_set_irq_enabled(encoder_b_pin, GPIO_IRQ_EDGE_FALL, true);
     pwm_motor = new_PWM(motor_pin, pwm_period, clkdiv); //PIN, wrap, divider
     
-    stdio_init_all();
     
-    add_repeating_timer_ms(40, repeating_timer_callback, NULL, &timer);
+    
+    //add_repeating_timer_ms(40, repeating_timer_callback, NULL, &timer);
     
 }
 
@@ -49,17 +50,17 @@ bool repeating_timer_callback(struct repeating_timer *t)
         {
             executed_interrupts = 0x00;
         }
-    gpio_put(LED_TEST, 1);
+    //gpio_put(LED_TEST, 1);
     add_alarm_in_ms(20, alarm_callback, NULL, false);
-    printf("timer fired");
+    //printf("timer fired");
     return true;
 }
 
 int64_t alarm_callback(alarm_id_t id, void *user_data) 
 {
-    printf("Timer %d fired!\n", (int) id);
+    //printf("Timer %d fired!\n", (int) id);
     //timer_fired = true;
-    gpio_put(LED_TEST, 0);
+    //gpio_put(LED_TEST, 0);
     // Can return a value here in us to fire in the future
     return 0;
 }
